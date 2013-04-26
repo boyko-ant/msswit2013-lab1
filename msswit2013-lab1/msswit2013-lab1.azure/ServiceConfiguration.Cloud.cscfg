@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="msswit2013_lab1.azure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2012-10.1.8">
+  <Role name="msswit2013-lab1.web">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=msswit2013lab;AccountKey=KjDWzhEczcwA4LYzmJjSogm7WJMLE1UnPPqXWAzKWYb5cRUMtsOdo4H2+u/DpoO8UkgVF5kMUSfzSCzVLou5hA==" />
+    </ConfigurationSettings>
+  </Role>
+  <Role name="msswit2013-lab1.worker">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=msswit2013lab;AccountKey=KjDWzhEczcwA4LYzmJjSogm7WJMLE1UnPPqXWAzKWYb5cRUMtsOdo4H2+u/DpoO8UkgVF5kMUSfzSCzVLou5hA==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
